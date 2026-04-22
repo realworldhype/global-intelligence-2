@@ -142,7 +142,7 @@ const globe = Globe()(document.getElementById('globe'))
 // 💹 STOCK SYSTEM (SMOOTH ENGINE)
 ////////////////////////////////////////////////////
 const API = "https://finnhub.io/api/v1/quote";
-const TOKEN = "YOUR_API_KEY_HERE";
+const TOKEN = "d7kc2n1r01qiqbctqjpgd7kc2n1r01qiqbctqjq0";
 
 let stocks = ["AAPL","TSLA","NVDA","MSFT","AMZN","BTC","META"];
 
@@ -261,7 +261,7 @@ async function loadNews() {
 const container = document.getElementById("news");
 
 try {
-const res = await fetch("https://newsapi.org/v2/top-headlines?language=en&pageSize=6&apiKey=YOUR_NEWS_KEY");
+const res = await fetch("https://newsapi.org/v2/top-headlines?language=en&pageSize=6&apiKey=97a32a44f39d479b8e3af9c445fa07d0");
 const data = await res.json();
 
 container.innerHTML = "";
